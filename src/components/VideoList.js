@@ -10,7 +10,7 @@ const VideoList = ({videos, onVideoSelect}) =>{
     const listOfVideos = videos.map((video, id) => <VideoItem onVideoSelect={onVideoSelect} key={id} video={video}/> )
     //load in the list of videos
     return (
-        <Grid container spacing={10}>
+        <Grid container spacing={3}>
             {listOfVideos}
         </Grid>
     )
