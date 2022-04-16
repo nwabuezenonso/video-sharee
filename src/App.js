@@ -12,8 +12,6 @@ import  { SearchBar, VideoDetail, VideoList}  from './components'
 import  youtube from './api/youtube'
 
 
-
-
 //create react class for dynamic data and class component
 class App extends React.Component {
 
